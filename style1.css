@@ -1,3 +1,6 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 nav{
     display: flex;
     align-items: center;
@@ -6,6 +9,7 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
     font-weight: bold;
+    background-color: rgb(33, 227, 46);
 }
 
 
@@ -21,7 +25,7 @@ ul li{
 
 nav a{
     position: relative;
-    text-decoration: none;
+    color: azure;
 }
 
 nav a::after {
@@ -32,7 +36,20 @@ nav a::after {
     position: absolute;
     bottom :0;
     left: 0;
+    
 
 }
 
+.card{
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0,0,1 );
+    margin-bottom: 20px
+    padding: 20px;
+    transition: transform 0.2s;
 
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
