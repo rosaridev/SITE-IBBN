@@ -7,11 +7,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px ;
+    padding-top: 10px ;
     padding-left: 5%;
     padding-right: 5%;
     font-weight: bold;
-    background-color: rgb(33, 227, 46);
+    background-color: rgb(50, 147, 216);
+  
 }
 
 
@@ -51,13 +52,63 @@ nav a::after {
     left: 0;
 }
 
+.hero {
+  background: url('imagem/membros1.jpg') no-repeat center center/cover;
+  height: 80vh;
+  box-shadow: 1px 1px opx black;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding: 10rem 6rem;
+}
+.texto-hero h1 {
+  font-size: 2.5rem;
+}
+.texto-hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #69f174;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.secao {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: white;
+  margin-bottom: 1rem;
+}
+.eventos ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+.eventos li {
+  margin: 0.5rem 0;
+}
 
+.fundo1{
+    background: url('imagem/igrejabackgroud.jpg');
+    position: center;
+    padding: 10rem 6rem;
+    height: 80vh;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
 .card{
-    background-color: aquamarine;
-    border-radius: 10px;
+    background-color: rgb(103, 184, 234);
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgb(0, 0,0,1 );
-    margin-bottom: 20px
-    padding:20px;
+    margin: 10px;
+    padding: 10px;
     transition:transform 0.2s;
 
 }
