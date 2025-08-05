@@ -57,13 +57,16 @@ nav a::after {
 }
 
 .hero {
-  background: url('imagem/membros1.jpg') no-repeat center center/cover;
+  background: url('imagem/ide.jpg') no-repeat center center/cover;
   height: 80vh;
   box-shadow: 1px 1px opx black;
   background-attachment: fixed;
   color: white;
   text-align: center;
   padding: 10rem 6rem;
+}
+.hero > h1{
+height: 10px;
 }
 .texto-hero h1 {
   font-size: 2.5rem;
@@ -102,7 +105,7 @@ nav a::after {
 }
 
 .fundo1{
-    background: url('imagem/igrejabackgroud.jpg');
+    background: url('imagem/you\ will\ be\ saved.jpg')no-repeat center center/cover;
     position: center;
     padding: 10rem 6rem;
     height: 80vh;
@@ -132,9 +135,7 @@ nav a::after {
 }
 
 .card-1{
-  background: url(imagem/CBB.jpg);
-  height: auto;
-  background-size:50% auto;
+  background: url(imagem/membros1.jpg) no-repeat center center/cover;
   margin-bottom: 10px;
   margin-top: 10px;
 
