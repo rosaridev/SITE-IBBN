@@ -193,13 +193,17 @@ footer{
 }
 
 .footer-container div{
-   flex: 1;         /* cada bloco ocupa espaço igual */
+  display: flex;
+  flex: 1;         /* cada bloco ocupa espaço igual */
   padding: 10px;
   min-width: 200px;
 }
+.footer-ban{
+
+}
 
 .footer-col{
-  flex: 1;
+
   padding:10px;
   min-width: 250px;
 }
@@ -309,4 +313,11 @@ footer{
 
 .sobre.invertido{
   flex-direction: row-reverse;
+}
+.dep-titulo{
+  margin: 20px;
+}
+.dep{
+  margin-bottom: 40px;
+  background-color: #36aaaa;
 }
