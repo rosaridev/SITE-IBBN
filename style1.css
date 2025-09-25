@@ -112,7 +112,7 @@ nav a::after {
 }
 
 .fundo1{
-    background: url('imagem/you\ will\ be\ saved.jpg')no-repeat center center/cover;
+    background: url('imagem/frente_ibbn.jpeg')no-repeat center center/cover;
     position: center;
     padding: 10rem 6rem;
     height: 80vh;
@@ -192,10 +192,12 @@ footer{
   gap: 50px;
 }
 
-.footer-container div{
+.footer-container{
   display: flex;
-  flex: 1;         /* cada bloco ocupa espaço igual */
-  padding: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
   min-width: 200px;
 }
 .footer-ban{
@@ -203,15 +205,15 @@ footer{
 }
 
 .footer-col{
-
+  flex: 1;
   padding:10px;
   min-width: 250px;
 }
 
 .footer-col h3{
   margin-bottom: 10px;
-  font-size: 15;
-  line-height:bold ;
+  font-size: 15px;
+  font-height:bold ;
 }
 
 .footer-col p {
